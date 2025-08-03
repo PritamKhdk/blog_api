@@ -17,5 +17,3 @@ router.delete('/:blogId/comments/:commentId', deleteComment);
 
 module.exports = router;
 
-const multer = require('multer');
-const upload = multer();
